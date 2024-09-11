@@ -1,5 +1,5 @@
-# Download annual data set from the European Commission's AMECO macro-economic database
+# ecmacro
 
-An R package for downloading the latest data from AMECO
+An R package for downloading the latest data from the European Commission's AMECO macro-economic database
 
 https://economy-finance.ec.europa.eu/economic-research-and-databases/economic-databases/ameco-database_en
