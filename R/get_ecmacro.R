@@ -17,14 +17,14 @@ get_ecmacro <- function(url){
   temp <- tempfile(fileext = ".zip")
 
   # Download the file
-  download.file(url = url, destfile = temp)
+  utils::download.file(url = url, destfile = temp)
 
   # Get the names of the zip files
-  zipped_files <- unzip(temp, list=TRUE)
+  zipped_files <- utils::unzip(temp, list=TRUE)
 
   # Read the text files into a list of lists
   AMECO_dataset_raw <- lapply(zipped_files$Name, function(x){
-    read.csv(unz(temp, x), header=TRUE, sep=";", stringsAsFactors = FALSE, check.names = FALSE, na.strings = "NA", strip.white = TRUE)
+    utils::read.csv(unz(temp, x), header=TRUE, sep=";", stringsAsFactors = FALSE, check.names = FALSE, na.strings = "NA", strip.white = TRUE)
   })
   names(AMECO_dataset_raw) <- zipped_files$Name
 
