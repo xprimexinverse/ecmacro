@@ -23,12 +23,10 @@ pak::pak("xprimexinverse/ecmacro")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to use the package:
 
 ``` r
 library(ecmacro)
-# library(devtools)
-# load_all()
 
 # Download the data
 AMECO <- get_ecmacro()
