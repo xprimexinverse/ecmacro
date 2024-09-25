@@ -8,6 +8,7 @@
 #' @export
 #'
 #' @examples
+#' ZUTN <- find_series(AMECO_spring_2024, "zutn", field = 1)
 find_series <- function(data, text, field){
   if(field==1){
     # Search for CODE

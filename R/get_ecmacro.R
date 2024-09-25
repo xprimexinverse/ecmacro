@@ -6,6 +6,7 @@
 #' @export
 #'
 #' @examples
+#' AMECO <- get_ecmacro()
 get_ecmacro <- function(url){
 
   if(missing(url)){

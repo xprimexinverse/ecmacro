@@ -17,3 +17,6 @@ A ts object
 \description{
 Get a series from the AMECO data
 }
+\examples{
+IRL_ZUTN <- get_series(AMECO_spring_2024, "IRL.1.0.0.0.ZUTN")
+}

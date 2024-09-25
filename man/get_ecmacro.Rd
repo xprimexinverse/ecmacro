@@ -15,3 +15,6 @@ A data.frame
 \description{
 Download the latest AMECO data
 }
+\examples{
+AMECO <- get_ecmacro()
+}

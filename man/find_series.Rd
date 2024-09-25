@@ -19,3 +19,6 @@ A data.frame
 \description{
 Find a series in the AMECO data
 }
+\examples{
+ZUTN <- find_series(AMECO_spring_2024, "zutn", field = 1)
+}
