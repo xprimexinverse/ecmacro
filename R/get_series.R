@@ -7,6 +7,7 @@
 #' @export
 #'
 #' @examples
+#' IRL_ZUTN <- get_series(AMECO_spring_2024, "IRL.1.0.0.0.ZUTN")
 get_series <- function(ameco, code){
   idx <- which(ameco$CODE == code)
   start_date <- 1960
