@@ -4,4 +4,4 @@ library(ecmacro)
 
 AMECO_spring_2024 <- get_ecmacro()
 
-usethis::use_data(AMECO_spring_2024, overwrite = TRUE)
+usethis::use_data(AMECO_spring_2024, overwrite = TRUE, compress = "xz")
