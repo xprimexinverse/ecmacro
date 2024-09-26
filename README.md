@@ -3,6 +3,8 @@
 
 # ecmacro
 
+<a href="https://xprimexinverse.github.io/ecmacro/"><img src="man/figures/logo.png" align="right" height="139" alt="ecmacro website" /></a>
+
 UNDER CONSTRUCTION - come back later…
 
 <!-- badges: start -->
